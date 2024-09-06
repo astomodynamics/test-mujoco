@@ -1,4 +1,4 @@
-# test-mujoco
+# test-mujoco (DO NOT USE)
 
 A simple C++ project demonstrating how to use MuJoCo for physics simulation.
 

@@ -8,7 +8,7 @@ int main() {
 
     // Load model from file 
     char error[1000] = "Could not load binary model";
-    m = mj_loadModel("model.xml", NULL); // Pass NULL for vfs directly
+    m = mj_loadModel("/home/tom/github/test-mujoco/model/cartpole.xml", NULL); // Pass NULL for vfs directly
 
     if (m == NULL) {
         mju_error_s("Load model error: %s", error);
